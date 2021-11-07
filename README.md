@@ -113,7 +113,7 @@ To run the application:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To check service response run any of the following request in Postman. Include path variable, params or body (raw/json) when necessary:
+To check service response run any of the following request in Postman. Use a basic Auth when requesting (user : 'admin' / password : 'admin'). Include path variable, params or body (raw/json) when necessary:
 
 * Sales Rep:
 ```sh
@@ -144,7 +144,7 @@ DELETE: http://localhost:8100/lead/{id}
     "salesRepId": "1" 
 }
 ```
-* Convert Lead: pass an id between 1 and 20
+* Convert Lead: pass an id between 1 and 10
 ```sh
 POST: http://localhost:8100/convert/{id}
 ```
@@ -160,27 +160,27 @@ POST: http://localhost:8100/convert/{id}
 ```
 * Report: the type of report is found at the end of the uri
 ```sh
-GET: http://localhost:8100/leads/count-by-salesrep
-GET: http://localhost:8100/opportunities/count-by-salesrep
-GET: http://localhost:8100/opportunities/count-by-salesrep/{status}
-GET: http://localhost:8100/opportunities/count-by-product
-GET: http://localhost:8100/opportunities/count-by-product/{status}
-GET: http://localhost:8100/opportunities/count-by-country
-GET: http://localhost:8100/opportunities/count-by-city
-GET: http://localhost:8100/opportunities/count-by-city{status}
-GET: http://localhost:8100/opportunities/count-by-industry
-GET: http://localhost:8100/opportunities/mean
-GET: http://localhost:8100/opportunities/median
-GET: http://localhost:8100/opportunities/max
-GET: http://localhost:8100/opportunities/min
-GET: http://localhost:8100/opportunities/mean-by-account
-GET: http://localhost:8100/opportunities/median-by-account
-GET: http://localhost:8100/opportunities/max-by-account
-GET: http://localhost:8100/opportunities/min-by-account
-GET: http://localhost:8100/employeeCount/mean
-GET: http://localhost:8100/employeeCount/median
-GET: http://localhost:8100/employeeCount/max
-GET: http://localhost:8100/employeeCount/min
+GET: http://localhost:8100/report/leads/count-by-salesrep
+GET: http://localhost:8100/report/opportunities/count-by-salesrep
+GET: http://localhost:8100/report/opportunities/count-by-salesrep/{status}
+GET: http://localhost:8100/report/opportunities/count-by-product
+GET: http://localhost:8100/report/opportunities/count-by-product/{status}
+GET: http://localhost:8100/report/opportunities/count-by-country
+GET: http://localhost:8100/report/opportunities/count-by-city
+GET: http://localhost:8100/report/opportunities/count-by-city{status}
+GET: http://localhost:8100/report/opportunities/count-by-industry
+GET: http://localhost:8100/report/opportunities/mean
+GET: http://localhost:8100/report/opportunities/median
+GET: http://localhost:8100/report/opportunities/max
+GET: http://localhost:8100/report/opportunities/min
+GET: http://localhost:8100/report/opportunities/mean-by-account
+GET: http://localhost:8100/report/opportunities/median-by-account
+GET: http://localhost:8100/report/opportunities/max-by-account
+GET: http://localhost:8100/report/opportunities/min-by-account
+GET: http://localhost:8100/report/employeeCount/mean
+GET: http://localhost:8100/report/employeeCount/median
+GET: http://localhost:8100/report/employeeCount/max
+GET: http://localhost:8100/report/employeeCount/min
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -190,7 +190,7 @@ GET: http://localhost:8100/employeeCount/min
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Require authentication using Spring Security
+- [] Required authentication using Spring Security
 - [] Add front-end UI using the Angular framework
 
 <p align="right">(<a href="#top">back to top</a>)</p>
