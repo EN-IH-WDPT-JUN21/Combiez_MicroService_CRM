@@ -21,7 +21,7 @@ public class CloudGatewayConfig {
                                 .uri("lb://account-service"))
                         .route(p -> p.path("/contact/**")
                                 .uri("lb://contact-service"))
-                        .route(p -> p.path("/main/**")
+                        .route(p -> p.path("/convert/**")
                                 .uri("lb://main-service"))
                         .route(p -> p.path("/report/**")
                                 .uri("lb://reporting-service"))
