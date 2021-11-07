@@ -210,7 +210,7 @@ public class ReportingController {
   public List<Object[]> getObjectFallbackMethod(Exception e) {
     logger.info("Fallback method called.");
     var result = new ArrayList<Object[]>();
-    result.add(new Object[]{"Object not founded", "Please, try again later."});
+    result.add(new Object[]{"Object not found", "Please, try again later."});
     return result;
   }
 
