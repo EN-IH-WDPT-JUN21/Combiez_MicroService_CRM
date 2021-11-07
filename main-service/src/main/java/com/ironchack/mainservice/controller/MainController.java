@@ -34,7 +34,8 @@ public class MainController {
 
     public String getFallbackMethod(Exception e) {
         logger.info("Fallback method called.");
-        return "This action cannot be performed at this moment. Please, try again later.";
+        String message = "This action cannot be performed at this moment. Please, try again later.";
+        return message;
     }
 
 }
