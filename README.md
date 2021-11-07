@@ -231,7 +231,7 @@ Gustavo Maldonado - [GitHub](https://github.com/GustavoM01)
 
 Lee Dawson - [GitHub](https://github.com/evildwells1982)
 
-Mara Fernandez - [GitHub](https://github.com/MaraFdez)
+Maravillas Fernandez - [GitHub](https://github.com/MaraFdez)
 
 Varvara Nechaeva - [GitHub](https://github.com/VarvaraNechaeva)
 
