@@ -113,6 +113,8 @@ To run the application:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+For all requests use username: admin - password: admin
+
 To check service response run any of the following request in Postman. Use a basic Auth when requesting (user : 'admin' / password : 'admin'). Include path variable, params or body (raw/json) when necessary:
 
 * Sales Rep:
