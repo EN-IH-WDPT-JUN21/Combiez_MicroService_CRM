@@ -97,7 +97,7 @@ To run the application:
 1. Create a directory and navigate to it.
 2. Run in the command line:
    ```sh
-   git clone https://github.com/EN-IH-WDPT-JUN21/Combiez_MicroService_CRM
+   git clone https://github.com/EN-IH-WDPT-JUN21/Combiez_MicroService_CRM.git
    ```
 3. Run the application file in each one.
 
